@@ -1,0 +1,30 @@
+{
+  "name": "amazon_app",
+  "version": "1.0.0",
+  "description": "test amazon app for buying products",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewmarshdev/Amazon_App.git"
+  },
+  "keywords": [
+    "amazon",
+    "online",
+    "store"
+  ],
+  "author": "Matthew Marsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewmarshdev/Amazon_App/issues"
+  },
+  "homepage": "https://github.com/matthewmarshdev/Amazon_App#readme",
+  "dependencies": {
+    "env": "0.0.2",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.1.0",
+    "mysql": "^2.15.0"
+  }
+}
