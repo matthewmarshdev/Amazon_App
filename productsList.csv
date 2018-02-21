@@ -1,0 +1,17 @@
+id,product_name,department_name,price,stock_quantity
+1,simpsonwave_vol_1,trap_vidz,29.9900,100
+2,simpsonwave_vol_2,trap_vidz,27.9900,1000
+3,all_trapz_kit,set,69999.9900,1
+4,all_trapz_kit,set,69999.9900,1
+5,simpsonwave_vol_3,trap_vidz,21.9900,1237
+6,simpsonwave_vol_4,trap_vidz,1364.0000,5
+7,trappin_in_japan_anthology,set,999.0000,7
+8,furry_headband,clothing,24.8900,50
+9,rick_drool_shirt,clothing,23.2400,43
+10,homer_sprinkle_donut,clothing,12.9900,400
+11,simpsonwave_package,set,9999.9900,3
+12,rickwave_package,set,7999.9900,3
+13,tokyo_bus_pass,collectable,199.9900,15
+14,fantasywave,trap_vidz,24.9900,167
+15,zelda_plushie,toys,21.9900,600
+16,link_plushie,toys,21.9900,589
