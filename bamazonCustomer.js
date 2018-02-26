@@ -82,10 +82,10 @@ var giveTotal = (item, quantity) => {
 //prompts user to buy the item if its available
 var buyItem = (item, quantity) => {
     //take current quantity, and subtract what they want to purchase
-    if(quantity >= )
+    
     //run a new select query with quantity, and subtract with new value
     updateStock(item, quantity);
-}
+hjx }
 
 //update request to database, removing purchased stock
 var updateStock = (item, newQuantity) => {
@@ -99,14 +99,30 @@ var updateStock = (item, newQuantity) => {
                 product_name: item
             }
         ],
-        function (error) {
-            if (error) throw err;
-            console.log("");
-            //add inquirer to ask user if they want to run program again
-            readItems();
-        }
-    );
+        function(err, res) {
+            console.log(res.affectedRows + " products updated!\n");
+            // Call deleteProduct AFTER the UPDATE completes
+            buyAnother();
+          }
+        );
+      
+        // logs the actual query being run
+        console.log(res);
+      }
     
+
+
+var buyAnother = function(){
+    inquirer
+        .prompt([
+            {
+                name: "item",
+                type: "input",
+                message: "Would you like to buy another item?"
+            }
+        ]).then(function (answer){
+            readItems()
+        });
     
-}
+} 
 
