@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/matthewmarshdev/Amazon_App#readme",
   "dependencies": {
-    "env": "0.0.2",
+    "dotenv": "^5.0.0",
     "figlet": "^1.2.0",
     "inquirer": "^5.1.0",
     "mysql": "^2.15.0"
